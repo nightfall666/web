@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Люкс с террасой</title>
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link type="image/svg" rel="icon" href="assets/icons/favicon.svg">
+</head>
+<body>
+	<nav class="nav roompage">
+			<h1 class="logo"><a href="/">Ольга</a></h1>
+
+				<div class="nav-item"><a href="/#about">О нас</a></div>	
+				<div class="nav-item"><a href="/#rooms">Номера</a></div>	
+				<div class="nav-item" onclick="show_rules()"><a href="#">Правила бронирования</a></div>	
+				<div class="nav-item"><a href="/#services">Услуги</a></div>	
+				<div class="nav-item"><a href="/#contacts">Контакты</a></div>	
+				<div class="nav-item nav-contacts">
+					<span class="nav-item-email"><a href="">sochi.olgahotel@mail.ru</a></span>
+					<span class="nav-item-phone"><a href="">+7 (918) 008 80 81</a></span>
+				</div>
+			
+		</nav>
+		<input type="checkbox" id="hamburger-input" class="burger-shower" />
+		<label id="hamburger-menu" for="hamburger-input">
+		  <nav id="sidebar-menu">
+		    <h3>Меню</h3>
+		    <ul>
+		      <li><a href="/#about">О нас</a></li>
+		      <li><a href="/#rooms">Номера</a></li>
+		      <li><a href="/#services">Услуги</a></li>
+		      <li><a href="/#contacts">Контакты</a></li>
+		    </ul>
+		  </nav>
+		</label>
+		<section id="roominfo">
+			
+			<div class="title-type1"><h2 class="room-title">Люкс с террасой
+			</h2></div>
+				
+			<div class="room-desc">
+				<div class="room-galery">
+					<div class="main-carousel"  data-flickity='{ "freeScroll": true }'>
+					  	<div class="carousel-cell"><img src="assets/img/6.1.jpg"></div>
+				  		<div class="carousel-cell"><img src="assets/img/6.2.jpg"></div>
+					  	<div class="carousel-cell"><img src="assets/img/6.3.jpg"></div>
+   						<div class="carousel-cell"><img src="assets/img/6.4.jpg"></div>
+   						<div class="carousel-cell"><img src="assets/img/6.5.jpg"></div>
+   						<div class="carousel-cell"><img src="assets/img/6.6.jpg"></div>
+   						<div class="carousel-cell"><img src="assets/img/6.7.jpg"></div>
+   						<div class="carousel-cell"><img src="assets/img/6.8.jpg"></div>
+					</div>
+				</div>
+				<div class="room-info">
+					<p>3х местный Номер люкс с собственной террасой подойдёт для комфортного проживания 2-3 человек, располагает двуспальной кроватью и одной односпальной или кресло кроватью, так же есть варианты с тремя односпальными кроватями.
+
+					Номер оснащен всем необходимым для комфортного проживания ( кондиционер, телевизор с плоским экраном, холодильник, электрический чайник,шкаф,две тумбы, чайный набор,бокалы для вина.
+					В собственной ванной комнате есть фен, набор белоснежных полотенец, халат, тапочки, шампунь-гель для душа, жидкое мыло, косметический набор, шапочка для душа, туалетная бумага, гигиенический набор.
+
+					В номере есть собственная большая терраса оборудованная диваном, креслами, столиком, шезлонгом и цветами.
+
+					В номере возможна установка дополнительного спального места в виде евро раскладушки (бесплатно)</p>
+
+					<div onclick="show_form()" class="booking"> <span>Забронировать номер</span></div>
+				</div>
+			</div>
+
+		<section id="services">
+		<div class="title-type2">
+			<h2>Цены за номер</h2>
+		</div>
+			<div class="services">
+				<div class="prices-item">
+					<div class="prices"></div>
+					<h2>Апрель</h2>
+					<p>2290 руб/сутки</p>
+				</div>
+				<div class="prices-item">
+					<div class="prices"></div>
+					<h2>С 1 по 9 мая</h2>
+					<p>3790 руб/сутки</p>
+				</div>
+				<div class="prices-item">
+					<div class="prices"></div>
+					<h2>С 10 по 31 мая</h2>
+					<p>3090 руб/сутки</p>
+				</div>
+				<div class="prices-item">
+					<div class="prices"></div>
+					<h2>С 1 по 15 июня</h2>
+					<p>4990 руб/сутки</p>
+				</div>
+				<div class="prices-item">
+					<div class="prices"></div>
+					<h2>С 16 по 30 июня</h2>
+					<p>6490 руб/сутки</p>
+				</div>
+				<div class="prices-item">
+					<div class="prices"></div>
+					<h2>Июль</h2>
+					<p>6990 руб/сутки</p>
+				</div>
+				<div class="prices-item">
+					<div class="prices"></div>
+					<h2>Август</h2>
+					<p>6990 руб/сутки</p>
+				</div>
+				<div class="prices-item">
+					<div class="prices"></div>
+					<h2>Сентябрь</h2>
+					<p>6990 руб/сутки</p>
+				</div>
+				<div class="prices-item">
+					<div class="prices"></div>
+					<h2>Октябрь</h2>
+					<p>4990 руб/сутки</p>
+				</div>
+			</div>
+	</section>	
+			
+		</section>
+			<section id="contacts">
+		<div class="contacts">
+			<div class="title-type1">
+				<h2>Контакты</h2>
+			</div>
+			<div class="contact-item">
+				<span class="addres">ул. Крамского, 13В, Сириус, Сочи, Краснодарский край, 354349</span>
+				<span class="phone">Ресепшн +7 (918) 008 80 81 (Круглосуточно) </span>
+				<span class="phone">Отдел бронирования +7 (938) 444 64 05 (с 8:00 до 20:00 по МСК) </span>
+				<span class="email">hotel-olga@yandex.com</span>
+			</div>
+			<div class="map">
+				<div style="position:relative;overflow:hidden;"><iframe src="https://yandex.ru/map-widget/v1/-/CCUBj8rQhD" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+			</div>
+		</div>
+		<div class="points">
+			<span>Популярные места рядом</span>
+			<ul>
+				<li>Олимпийский парк 3,4 км
+				<li>Знаменитый «Сочи Парк» 2,6 км</li>
+				<li>Парк «Южные культуры» 5.7 км</li>
+				<li>Орнитологический парк 0,9 км</li>
+				<li>Поющие фонтаны в «Олимписком парке» 5,7 км </li>
+				<li>Поющие фонтаны на набережной 0,9 км</li>
+				<li>Адлерский дельфинарий 3,2 км</li>
+				<li>Развлекательный центр «Мандарин» 7 км</li>
+				<li>Ночной караоке клуб «Малина» 0,1 км</li>
+				<li>Обезьяний питомник 5 км</li>
+				<li>Горные пешие прогулки</li>
+				<li>Современный спорт-комплекс 3,7 км</li>
+				<li>Сплав по горной реке «Мзымта»</li>
+			</ul>
+		</div>
+	</section>
+<div class="booking-rules popup">
+	<div class="popup-close"></div>
+	<h2>Правила бронирования</h2>
+	<div class="popup-icon"></div>
+	<p>Уважаемые гости, после отправки заявки на бронирование, в течение дня вы получите письмо-договор на эл. почту. Ознакомьтесь, проверьте даты, категорию номера. Возможно, понадобится предоплата! (Различные способы оплаты доступны) Ваше бронирование будет подтверждено после выполнения условий, изложенных в Письме-договоре. Вы получите автоматическое подтверждение брони. Спасибо за Ваш выбор!</p>
+</div>
+
+
+<div class="booking-form popup">
+	<div class="popup-close"></div>
+	<h2>Бронирование</h2>
+	<div class="booking-form">
+		<form action="mail.php">
+			<input type="text"  name="fio" placeholder="ФИО" required="">
+			<input type="phone" name="phone" placeholder="Телефон" required="">
+			<input type="email" name="email" placeholder="Ваш E-mail" required="">
+			<input type="text" name="etc" placeholder="Пожелания" required="">
+			<input type="hidden" name="room" required="">
+			<div class="day-text">
+				<p>
+					Дата заезда
+				</p>
+				<input name="date1" id="date1" type="date">
+			</div>
+			<div class="day-text">
+				<p>
+					Дата выезда
+				</p>
+				<input name="date2" id="date2" type="date">
+			</div>
+			<div><input style="margin-right: 5px;" type="checkbox" name="accept" required=""><label>Согласен с правилами бронирования и условиями обработки персональных данных</label>
+				</div>
+			<button onclick="serialize_and_send()" class="booking">Оставить заявку</button>
+		</form>
+		<script type="text/javascript">
+			document.querySelector('.booking-form input[name="room"]').value = document.querySelector('.room-title').innerHTML;
+			document.querySelector('.booking-form form button').addEventListener("click", function(event){
+			  //event.preventDefault();
+			});
+
+			
+
+		</script>
+	</div>
+</div>
+<div class="bg"></div>
+<script type="text/javascript">
+	function show_rules() {
+		var popup = document.querySelector('.booking-rules.popup');
+		popup.style.display = "flex";
+		document.querySelector('.bg').style.display = "block";
+	}
+
+	function show_form() {
+		var popup = document.querySelector('.booking-form.popup');
+		popup.style.display = "flex";
+		document.querySelector('.bg').style.display = "block";
+	}
+
+	function close_popup(){
+		var popup = document.querySelectorAll('.popup');
+		for(const x of popup) {
+				x.style.display = "none";
+		}
+		
+		document.querySelector('.bg').style.display = "none";
+	}
+	document.querySelector('.bg').addEventListener("mouseup", function(){
+		close_popup();
+	});
+	var close = document.querySelectorAll('.popup-close');
+	for(const x of close) {
+		x.addEventListener("mouseup", function(){
+			close_popup();
+		});
+	}
+</script>
+<div class="footer">
+<footer>
+	<span>© 2022 All Rights Reserved.</span>
+	<div class="social">
+		<a href="https://www.instagram.com/hotel_olga_olympic_beach/?hl=ru"><div class="ig"></div></a>
+		<a href="https://vk.com/public211488625"><div class="vk"></div></a>
+		<a href="https://t.me/olga_hotel_sochi"><div class="tg"></div></a>
+	</div>
+</footer>
+</div>
+</body>
+</html>
